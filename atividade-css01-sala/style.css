@@ -1,0 +1,107 @@
+/* --- Seletores de Elementos Gerais --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6; /* Cor de fundo suave */
+    color: #333333;            /* Cor do texto escuro */
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* --- Classe 1: Cabeçalho --- */
+.cabecalho-principal {
+    background-color: #1e293b; /* Azul escuro tecnológico */
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 4px 6px gray; /* Requisito de Sombra */
+}
+
+.cabecalho-principal h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.subtitulo {
+    font-size: 16px;
+    opacity: 0.8; /* Requisito de Transparência sutil */
+    margin-top: 10px;
+}
+
+/* --- Estrutura do Formulário --- */
+.container-formulario {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+.formulario-inscricao {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px; /* Requisito de Cantos Arredondados */
+    box-shadow: 2px 2px 12px gray; /* Requisito de Sombra */
+}
+
+.grupo-campo {
+    margin-bottom: 20px; /* Requisito de Margem */
+}
+
+/* --- Classe 2: Estilização dos Campos --- */
+.campo-texto {
+    width: 100%;
+    padding: 10px; /* Requisito de Espaçamento Interno */
+    border: 1px solid #cccccc; /* Requisito de Borda */
+    border-radius: 6px; /* Cantos Arredondados */
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+textarea.campo-texto {
+    height: 100px; /* Requisito de Altura */
+}
+
+.opcoes-radio label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* --- Classe 3: Campos Obrigatórios --- */
+.campo-obrigatorio::after {
+    content: " *";
+    color: red; /* Destaque visual vermelho */
+}
+
+/* --- Classe 4: Botão Principal --- */
+.botao-principal {
+    background-color: #2563eb; /* Azul chamativo */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer; /* Requisito de Cursor do Mouse */
+}
+
+.botao-principal:hover {
+    background-color: #1d4ed8; /* Muda de tom ao passar o mouse */
+}
+
+/* --- Classe 5: Rodapé --- */
+.rodape-pagina {
+    background-color: #1e293b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+}
