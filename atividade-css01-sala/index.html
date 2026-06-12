@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição em Curso de Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho-principal">
+        <h1>DevAcademy - Inscrição</h1>
+        <p class="subtitulo">Garanta sua vaga no curso que vai transformar sua carreira em tecnologia.</p>
+    </header>
+
+    <main class="secao-principal">
+        <form action="#" method="POST" class="formulario-inscricao">
+            
+            <div class="grupo-campo">
+                <label for="nome" class="campo-obrigatorio">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" class="campo-texto" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="email" class="campo-obrigatorio">E-mail Acadêmico:</label>
+                <input type="email" id="email" name="email" class="campo-texto" placeholder="exemplo@email.com" required>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="nascimento">Data de Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" class="campo-texto">
+            </div>
+
+            <div class="grupo-campo">
+                <label for="curso">Escolha o Curso:</label>
+                <select id="curso" name="curso" class="campo-texto">
+                    <option value="desenvolvimento">Desenvolvimento de Sistemas</option>
+                    <option value="informatica">Informática para Internet</option>
+                    <option value="redes">Redes de Computadores</option>
+                </select>
+            </div>
+
+            <div class="grupo-campo">
+                <label>Turno Preferencial:</label>
+                <div class="opcoes-radio">
+                    <label><input type="radio" name="turno" value="manha" checked> Manhã</label>
+                    <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+                    <label><input type="radio" name="turno" value="noite"> Noite</label>
+                </div>
+            </div>
+
+            <div class="grupo-campo">
+                <label for="motivo">Por que você quer fazer este curso?</label>
+                <textarea id="motivo" name="motivo" class="campo-texto" placeholder="Conte suas motivações..."></textarea>
+            </div>
+
+            <button type="submit" class="botao-principal">Confirmar Inscrição</button>
+
+        </form>
+    </main>
+
+    <footer class="rodape-pagina">
+        <p>Integrantes: <strong>Nicollas Santana de Oliveira</strong> & Dupla</p>
+        <p>Disciplina: Programação Web I (PWEB1) | Data: 12/06/2026</p>
+    </footer>
+
+</body>
+</html>
