@@ -61,7 +61,6 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 15px;
-  background-color: transparent;
 }
 
 th {
@@ -80,7 +79,6 @@ td {
   border: 1px solid #cfcfcf;
 }
 
-/* Cores das linhas intercaladas */
 tr:nth-child(even) {
   background-color: rgba(255, 255, 255, 0.2);
 }
@@ -89,7 +87,6 @@ tr:nth-child(odd) {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-/* Estilo do link da tabela */
 td a {
   color: #386e2c;
   text-decoration: none;
@@ -99,8 +96,8 @@ td a:hover {
   text-decoration: underline;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <div class="header-container">
@@ -110,20 +107,27 @@ td a:hover {
          alt="Foto de Nicollas"
          class="profile-img">
 
-    <p>Estudante de Desenvolvimento de Sistemas</p>
+    <p>Estudante de Desenvolvimento de Sistemas - IFAL</p>
 </div>
 
-<!-- Coloque aqui o restante do seu portfólio -->
-
 <h2>Sobre Mim</h2>
-<p>Sou estudante do curso Técnico em Desenvolvimento de Sistemas no IFAL e tenho interesse em programação, tecnologia, games e Pokémon.</p>
+
+<p>
+Sou estudante do curso Técnico em Desenvolvimento de Sistemas do IFAL.
+Tenho interesse em programação, desenvolvimento web, tecnologia,
+games e Pokémon. Meu objetivo é aprender cada vez mais e desenvolver
+projetos para meu portfólio.
+</p>
 
 <h2>Conhecimentos Técnicos</h2>
+
 <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
     <li>Node.js</li>
+    <li>Express.js</li>
+    <li>Git e GitHub</li>
 </ul>
 
 <h2>Atividades da Disciplina</h2>
@@ -131,11 +135,38 @@ td a:hover {
 <table>
     <tr>
         <th>Atividade</th>
+        <th>Descrição</th>
         <th>Link</th>
     </tr>
+
     <tr>
-        <td>Portfólio</td>
-        <td><a href="#">Visualizar</a></td>
+        <td>Currículo HTML</td>
+        <td>Criação de um currículo utilizando HTML e CSS.</td>
+        <td><a href="curriculo.html" target="_blank">Visualizar</a></td>
+    </tr>
+
+    <tr>
+        <td>Portfólio Pessoal</td>
+        <td>Desenvolvimento de um portfólio pessoal responsivo.</td>
+        <td><a href="portfolio.html" target="_blank">Visualizar</a></td>
+    </tr>
+
+    <tr>
+        <td>API de Livros</td>
+        <td>API REST desenvolvida com Node.js e Express.</td>
+        <td><a href="http://localhost:3000/livros" target="_blank">Visualizar</a></td>
+    </tr>
+
+    <tr>
+        <td>API de Veículos</td>
+        <td>Sistema de gerenciamento de veículos utilizando Express.js.</td>
+        <td><a href="http://localhost:3000/veiculos" target="_blank">Visualizar</a></td>
+    </tr>
+
+    <tr>
+        <td>GitHub</td>
+        <td>Repositório contendo os projetos desenvolvidos durante a disciplina.</td>
+        <td><a href="https://github.com/SEU-USUARIO" target="_blank">Visualizar</a></td>
     </tr>
 </table>
 
