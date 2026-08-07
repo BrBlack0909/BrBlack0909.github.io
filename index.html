@@ -1,19 +1,103 @@
-<div class="container">
-    <img src="./WIN_20260612_09_31_09_Pro.jpg" alt="Foto de Nicollas" width="300">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Nicollas Santana de Oliveira</title>
 
-    <h1>Nicollas Santana de Oliveira</h1>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-    <p>Estudante de Desenvolvimento de Sistemas</p>
+        body {
+            background: linear-gradient(135deg, #300000, #8B0000);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
 
-    <div class="info">
-        <h2>Sobre Mim</h2>
+        .card {
+            background: white;
+            width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
 
-        <p><strong>Cidade:</strong> Maceió - AL</p>
+        h1 {
+            color: #b30000;
+            margin-bottom: 10px;
+        }
 
-        <p><strong>Curso:</strong> Desenvolvimento de Sistemas</p>
+        .cargo {
+            color: #555;
+            margin-bottom: 25px;
+            font-size: 18px;
+        }
 
-        <p><strong>Interesses:</strong> Programação, Pokémon, Games e Tecnologia</p>
+        h2 {
+            color: #b30000;
+            border-bottom: 2px solid #b30000;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
 
-        <p><strong>Objetivo:</strong> Aprender desenvolvimento web e criar projetos para meu portfólio.</p>
+        .info p {
+            background: #ffe5e5;
+            padding: 10px;
+            border-left: 5px solid #b30000;
+            border-radius: 8px;
+            text-align: left;
+            margin: 10px 0;
+        }
+
+        strong {
+            color: #8B0000;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 20px;
+            background: #b30000;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background: #800000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Nicollas Santana de Oliveira</h1>
+
+        <p class="cargo">💻 Estudante de Desenvolvimento de Sistemas</p>
+
+        <div class="info">
+            <h2>Sobre Mim</h2>
+
+            <p><strong>📍 Cidade:</strong> Maceió - AL</p>
+
+            <p><strong>🎓 Curso:</strong> Desenvolvimento de Sistemas</p>
+
+            <p><strong>🎮 Interesses:</strong> Programação, Pokémon, Games e Tecnologia</p>
+
+            <p><strong>🎯 Objetivo:</strong> Aprender desenvolvimento web e criar projetos para meu portfólio.</p>
+        </div>
+
+        <a href="#" class="botao">Conheça meus projetos</a>
     </div>
-</div>
+
+</body>
+</html>
